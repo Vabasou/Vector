@@ -245,12 +245,3 @@ class Vector
         alloc.construct(dataEnd++, val);
     }
 };
-
-int main()
-{
-    Vector<int> test;
-    test.push_back(1);
-    test.push_back(2);
-    test.push_back(3);
-    std::cout<<test[0]<<test[1]<<test[2]<<'\n';
-}
