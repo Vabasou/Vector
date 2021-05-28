@@ -9,6 +9,12 @@
 | Vector              | 0s    | 0.002s | 0.015s  | 0.178s   | 1.49s     |
 | std::vector         | 0s    | 0.003s | 0.0159s | 0.157s   | 1.37s     |
 
+### skaičiuoklės greičio palyginimas
+
+| Konteineris\Greitis |  10000  | 100000 | 1000000 | 
+|---------------------|---------|--------|---------|
+| Vector              | 0.001s  | 0.011s | 0.1s    | 
+| std::vector         | 0.0009s | 0.012s | 0.104s  |
 
 ## Funkcijos 
 
