@@ -206,8 +206,7 @@ class Vector
             iterator it = dataEnd;
             while(it != data)
             {
-                alloc.destroy(it);
-                it--;
+                alloc.destroy(--it);
             }
             alloc.deallocate(data, limit - data);
         }
